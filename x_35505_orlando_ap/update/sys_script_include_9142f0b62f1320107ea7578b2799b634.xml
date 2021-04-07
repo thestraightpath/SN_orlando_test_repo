@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_35505_orlando_ap.uf_orlando_test_si</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>uf_orlando_test_si</name>
+        <script><![CDATA[var uf_orlando_test_si = Class.create();
+uf_orlando_test_si.prototype = {
+    initialize: function() {
+    },
+	
+	myMethod: function () {
+		//do something
+	},
+
+    type: 'uf_orlando_test_si'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-07 09:28:48</sys_created_on>
+        <sys_id>9142f0b62f1320107ea7578b2799b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>uf_orlando_test_si</sys_name>
+        <sys_package display_value="Orlando test App" source="x_35505_orlando_ap">4730f4362f1320107ea7578b2799b648</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Orlando test App">4730f4362f1320107ea7578b2799b648</sys_scope>
+        <sys_update_name>sys_script_include_9142f0b62f1320107ea7578b2799b634</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-07 09:28:48</sys_updated_on>
+    </sys_script_include>
+</record_update>
